@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Henrique - Nutricionista | Consultoria Especializada</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">| Dr. Henrique</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#testimonials">Avaliações</a></li>
+            </ul>
+            <div>
+                <a href="#contact" class="cta-button">Agendar Consulta</a>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu.png" alt="" ></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-links"><a href="#home">Início</a></li>
+                <li class="nav-links"><a href="#services">Serviços</a></li>
+                <li class="nav-links"><a href="#about">Sobre</a></li>
+                <li class="nav-links"><a href="#testimonials">Avaliações</a></li>
+            </ul>
+
+            <div class="mobile-menu-icon">
+                <a href="#contact"  class="cta-button" >Agendar Consulta</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transforme Sua Saúde<br>com Nutrição Personalizada</h1>
+            <div class="rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>5.0 (21 avaliações)</span>
+            </div>
+            <p>Nutricionista especializado em nutrição funcional, esportiva e emagrecimento. Planos alimentares personalizados para seus objetivos.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Agendar Consulta</a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Nutrição Esportiva</h3>
+                    <p>Planos alimentares para atletas e praticantes de atividade física.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-weight-scale"></i>
+                    </div>
+                    <h3>Nutrição para Obesidade</h3>
+                    <p>Programas especializados para emagrecimento saudável e sustentável.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-medical"></i>
+                    </div>
+                    <h3>Consultoria Online</h3>
+                    <p>Acompanhamento completo à distância com resultados comprovados.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3>Nutrição Funcional</h3>
+                    <p>Abordagem personalizada considerando saúde intestinal e bem-estar.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Nutricionista Fitness</h3>
+                    <p>Suporte nutricional para definição muscular e performance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Serviços Domésticos</h3>
+                    <p>Consultas personalizadas no conforto da sua casa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Dr. Henrique | Nutricionista </h3>
+                    <p>Nutricionista com mais de 15 anos de experiência, especializado em nutrição funcional, esportiva e emagrecimento. Atendo em Arapiraca/AL e online para todo Brasil.</p>
+                    <p>Meu diferencial é a personalização total dos planos alimentares, considerando seu estilo de vida, objetivos e preferências alimentares.</p>
+                    <div class="contact-info">
+                        <h4>Informações de Contato</h4>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <strong>R. Endereço, N°</strong><br>
+                                Bairro, Cidade - AL<br>
+                                CEP
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <strong>(82) 9999-9999</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <img class="about-image" src="img/nutricionista-1024x730.jpg" alt="fotoNutricionista">
+                    <p style="opacity: 0.9;">Nota 5.0 no Google</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">O que dizem nossos clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>"Gostei muito das opções de refeição no plano alimentar!"</p>
+                    <div class="testimonial-author">
+                        <div style="width: 50px; height: 50px; background: #4CAF50; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">R.</div>
+                        <div>
+                            <strong>Rogéria</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Falo com conhecimento de causa, pois o mesmo é nutricionista da minha família."</p>
+                    <div class="testimonial-author">
+                        <div style="width: 50px; height: 50px; background: #4CAF50; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">P.</div>
+                        <div>
+                            <strong>Pulo Ricardo</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"A consulta com ele foi muito boa e esclarecedora!"</p>
+                    <div class="testimonial-author">
+                        <div style="width: 50px; height: 50px; background: #4CAF50; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">A.</div>
+                        <div>
+                            <strong>Ângela Silva</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Atendimento incrível, tive um ótimo resultado!"</p>
+                    <div class="testimonial-author">
+                        <div style="width: 50px; height: 50px; background: #4CAF50; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">V.</div>
+                        <div>
+                            <strong>Vitória</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 - Dr. Henrique | Todos os direitos reservados.</p>
+            <p>Desenvolvido por <a href="https://www.instagram.com/hugo.freittas_/" target="_blank" style="color: #f8f9fa;">Hugo Freitas</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
